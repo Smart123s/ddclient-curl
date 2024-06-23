@@ -1963,9 +1963,6 @@ sub check_value {
     } elsif ($type eq T_PROG) {
         return undef if $value eq "";
 
-    } elsif ($type eq T_LOGIN) {
-        return undef if $value eq "";
-
 #   } elsif ($type eq T_PASSWD) {
 #       return undef if $value =~ /:/;
 
